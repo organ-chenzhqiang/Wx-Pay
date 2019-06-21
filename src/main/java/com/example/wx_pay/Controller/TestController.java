@@ -15,6 +15,7 @@ public class TestController {
 
     @RequestMapping("/createNative")
     public Map createNative(){
+
         return weixinPayService.createNative("463724632543","1");
     }
 
